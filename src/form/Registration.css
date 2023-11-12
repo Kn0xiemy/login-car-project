@@ -1,0 +1,90 @@
+body {
+  background-color: gainsboro;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: purple;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 60px;
+  height: 6px;
+  background-color: purple;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 35px;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.input input{
+  width: 250px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin-top: 6px;
+}
+
+.forgot-password {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: dimgray;
+  margin-top: 5px;
+}
+
+.forgot-password span {
+  color: blue;
+  margin-top: 5px;
+}
+
+.submit-container {
+  display: flex;
+  margin: 60px auto;
+  gap: 30px;
+}
+
+.submit {
+  background-color: red;
+  width: 100px;
+  height: 25px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: purple;
+  color: whitesmoke;
+  cursor: pointer;
+}
